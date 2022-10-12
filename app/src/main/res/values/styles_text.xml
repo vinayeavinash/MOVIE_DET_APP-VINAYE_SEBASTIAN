@@ -8,6 +8,21 @@
         <item name="android:fontFamily">@font/sf_bold</item>
     </style>
 
+   //movies fragment
+    <style name="MoviesItemTitleName">
+        <item name="android:textSize">@dimen/dimen_15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:maxLines">2</item>
+
+    </style>
+    /movies fragment
+    <style name="MoviesItemTitleDescription">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_light</item>
+        <item name="android:maxLines">3</item>
+    </style>
 </resources>
 
 

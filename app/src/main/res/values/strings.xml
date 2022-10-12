@@ -5,4 +5,7 @@
     <string name="title_recent">Recent</string>
     <string name="title_splashscreen">Telus VideoApp</string>
     <string name="content_desc_splashscreen_logo">Telus Logo</string>
+    <string name="content_desc_movie_item_image_view">movie_banner</string>
+    <string name="title_movie_item">Telus Logo</string>
+    <string name="description_movie_item">movie_banner</string>
 </resources>

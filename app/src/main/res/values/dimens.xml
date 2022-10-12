@@ -225,5 +225,6 @@
     <dimen name="dimen_99sp">99sp</dimen>
     <dimen name="dimen_100sp">100sp</dimen>
     <dimen name="dimen_160dp">160dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
 
 </resources>
