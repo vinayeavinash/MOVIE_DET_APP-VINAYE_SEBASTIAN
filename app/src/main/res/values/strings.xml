@@ -3,4 +3,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_splashscreen">Telus VideoApp</string>
+    <string name="content_desc_splashscreen_logo">Telus Logo</string>
 </resources>
