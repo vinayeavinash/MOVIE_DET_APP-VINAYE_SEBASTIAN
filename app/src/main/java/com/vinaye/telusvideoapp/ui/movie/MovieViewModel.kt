@@ -10,4 +10,8 @@ class MovieViewModel : ViewModel() {
         value = "This is movie Fragment"
     }
     val text: LiveData<String> = _text
+
+    //
+
+
 }
