@@ -1,4 +1,4 @@
-package com.vinaye.telusvideoapp.ui.dashboard
+package com.vinaye.telusvideoapp.ui.wishlist
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
