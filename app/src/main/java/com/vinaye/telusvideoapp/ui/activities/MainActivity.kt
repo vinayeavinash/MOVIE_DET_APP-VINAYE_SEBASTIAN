@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-// init  navigation view
+        // init  navigation view
         val navView: BottomNavigationView = binding.navView
-// init nav controller
+        // init nav controller
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.

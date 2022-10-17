@@ -50,6 +50,8 @@ class MovieDetailsActivity : AppCompatActivity() {
         binding.tvYear.text = moviesArray[position].year
         binding.tvDuration.text = moviesArray[position].duration.toString()
         binding.tvInfoDetails.text = moviesArray[position].longDescription
+
+        //set Image
         Glide.with(this)
             .load(moviesArray[position].image169)
             .transition(DrawableTransitionOptions.withCrossFade())
