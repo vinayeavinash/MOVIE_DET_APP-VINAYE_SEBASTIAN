@@ -1,4 +1,4 @@
-package com.vinaye.telusvideoapp
+package com.vinaye.telusvideoapp.ui.activities
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.vinaye.telusvideoapp.R
 import com.vinaye.telusvideoapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">TelusVideoApp</string>
+    <string name="app_name">Telustream</string>
     <string name="title_movies">Movies</string>
     <string name="title_wishlist">Wishlist</string>
     <string name="title_recent">Recent</string>
-    <string name="title_splashscreen">Telus VideoApp</string>
+    <string name="title_splashscreen">TELUSTREAM</string>
     <string name="content_desc_splashscreen_logo">Telus Logo</string>
     <string name="content_desc_movie_item_image_view">movie_banner</string>
     <string name="title_movie_item">Telus Logo</string>

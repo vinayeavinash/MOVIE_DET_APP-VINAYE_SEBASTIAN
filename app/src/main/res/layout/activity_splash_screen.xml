@@ -25,7 +25,6 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="@dimen/splash_screen_title_margin"
-        android:text="@string/title_splashscreen"
         android:theme="@style/SplashScreenTitleLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

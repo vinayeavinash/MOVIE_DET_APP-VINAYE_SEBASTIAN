@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
-import com.vinaye.telusvideoapp.MovieDetailsActivity
+import com.vinaye.telusvideoapp.ui.activities.MovieDetailsActivity
 import com.vinaye.telusvideoapp.R
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MyViewHolder>() {

@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.vinaye.telusvideoapp.MainActivity
+import com.vinaye.telusvideoapp.ui.activities.MainActivity
 import com.vinaye.telusvideoapp.R
 
 class SplashScreenActivity : AppCompatActivity() {
