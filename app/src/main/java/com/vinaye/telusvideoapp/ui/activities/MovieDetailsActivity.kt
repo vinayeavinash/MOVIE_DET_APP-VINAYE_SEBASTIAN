@@ -18,6 +18,7 @@ class MovieDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMovieDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        // get  data
         getData()
     }
 
@@ -33,8 +34,10 @@ class MovieDetailsActivity : AppCompatActivity() {
                 for (i in it.resultObj.containers) {
                     moviesArray.add(i.metadata)
                 }
+                // set  up  movie info
                 setUI(moviesArray)
             } else {
+                // error handling
                 binding.tvDataErrorMessage.visibility = View.VISIBLE
             }
         }

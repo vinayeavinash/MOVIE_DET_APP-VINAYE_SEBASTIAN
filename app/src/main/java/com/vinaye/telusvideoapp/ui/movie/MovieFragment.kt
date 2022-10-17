@@ -45,6 +45,7 @@ class MovieFragment : Fragment() {
                 }
 
             } else {
+                // handle error
                 binding.tvDataErrorMessage.visibility = View.VISIBLE
             }
         }
