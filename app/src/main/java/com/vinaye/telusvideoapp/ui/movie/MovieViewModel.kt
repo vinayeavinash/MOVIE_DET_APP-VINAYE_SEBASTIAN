@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 
 class MovieViewModel : ViewModel() {
     private val mutableMovies = MutableLiveData<Movie>()
-    val cards: LiveData<Movie> get() = mutableMovies
+    val movies: LiveData<Movie> get() = mutableMovies
     // function for fetch movie details
     fun fetchCards(context: Context) {
         viewModelScope.launch {
