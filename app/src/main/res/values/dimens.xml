@@ -227,5 +227,8 @@
     <dimen name="dimen_160dp">160dp</dimen>
     <dimen name="dimen_200dp">200dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="details_image_height">430dp</dimen>
+    <dimen name="details_card_view_height">180dp</dimen>
+    <dimen name="details__small_poster_height">180dp</dimen>
 
 </resources>

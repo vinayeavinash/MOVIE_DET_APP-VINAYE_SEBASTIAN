@@ -30,7 +30,60 @@
         <item name="android:text">@string/description_movie_item</item>
         <item name="android:maxLines">3</item>
     </style>
-
+    <style name="MoviesDetailsTitle">
+        <item name="android:textSize">@dimen/dimen_40sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:text">@string/description_movie_item</item>
+        <item name="android:maxLines">4</item>
+    </style>
+    <style name="MoviesDetailsGenre_Lang">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:text">@string/description_movie_item</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="MoviesDetailsRa_Du_Yr_Row">
+        <item name="android:textSize">@dimen/dimen_25sp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/description_movie_item</item>
+        <item name="android:maxLines">3</item>
+    </style>
+    <style name="MoviesDetailsRatingLabelTextview">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/tv_label_rating</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+    <style name="MoviesDetailsYearLabelTextview">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/tv_label_year</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+    <style name="MoviesDetailsDurationLabelTextview">
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/tv_label_duration</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+    <style name="MoviesDetailsInfoLabelTextview">
+        <item name="android:textColor">@color/bright_grey</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/tv_label_duration</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+    </style>
+    <style name="MoviesDetailsInfoTextview">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/tv_label_info</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+    </style>
 </resources>
 
 

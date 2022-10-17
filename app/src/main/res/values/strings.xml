@@ -19,4 +19,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Strings used for DetailActivity-->
+    <string name="iv_banner_details">banner_det</string>
+    <string name="iv_small_poster_details">small_poster</string>
+    <string name="tv_label_rating">Rating</string>
+    <string name="tv_label_year">Year</string>
+    <string name="tv_label_duration">Duration</string>
+    <string name="tv_label_info">Info</string>
+
 </resources>
