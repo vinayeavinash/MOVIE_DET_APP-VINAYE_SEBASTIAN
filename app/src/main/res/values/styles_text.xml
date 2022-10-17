@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    //splash screen
+    <!--splash screen-->
     <style name="SplashScreenTitleLabel">
         <item name="android:textSize">@dimen/dimen_24sp</item>
         <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
-
-   //movies fragment
+    <!--movies fragment-->
     <style name="MoviesItemTitleName">
         <item name="android:textSize">@dimen/dimen_15sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/title_movie_item</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="MoviesDataErrorMessage">
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/data_error_message</item>
 
     </style>
-    /movies fragment
     <style name="MoviesItemTitleDescription">
         <item name="android:textSize">@dimen/dimen_12sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:fontFamily">@font/sf_light</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:text">@string/description_movie_item</item>
         <item name="android:maxLines">3</item>
     </style>
+
 </resources>
 
 
