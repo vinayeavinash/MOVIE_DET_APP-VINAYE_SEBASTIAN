@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.vinaye.telusvideoapp.MovieDetailsActivity
 import com.vinaye.telusvideoapp.R
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MyViewHolder>() {
@@ -43,6 +44,14 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MyViewHolder>() {
             .centerCrop()
             .error(R.drawable.ic_movies)
             .transition(DrawableTransitionOptions.withCrossFade()).into(movieImage)
+
+        holder.itemView.setOnClickListener {
+            // create  intent
+            val intent = Intent(holder.itemView.context, MovieDetailsActivity::class.java)
+            // send  the item position  to  MovieDetailsActivity  for generate details
+            intent.putExtra("position", position)
+            holder.itemView.context.startActivity(intent)
+        }
 
     }
 

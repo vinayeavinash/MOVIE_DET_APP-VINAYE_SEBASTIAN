@@ -13,22 +13,29 @@
         android:theme="@style/Theme.TelusVideoApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.splashscreen.SplashScreenActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:name=".MovieDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_movie_details"
+            android:theme="@style/Theme.TelusVideoApp.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
-            >
+            android:name=".ui.splashscreen.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
