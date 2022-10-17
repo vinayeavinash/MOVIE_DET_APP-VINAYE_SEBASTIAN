@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/content_desc_movie_item_image_view"
             android:scaleType="fitXY"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            tools:srcCompat="@drawable/ic_jpeg" />
 
         <View
             android:id="@+id/view"
