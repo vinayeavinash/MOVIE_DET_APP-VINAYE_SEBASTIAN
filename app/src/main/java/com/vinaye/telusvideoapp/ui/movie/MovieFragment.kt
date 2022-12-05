@@ -1,5 +1,4 @@
 package com.vinaye.telusvideoapp.ui.movie
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,7 +32,7 @@ class MovieFragment : Fragment() {
     private fun getData() {
         val movieViewModel =
             ViewModelProvider(this)[MovieViewModel::class.java]
-        context?.let { movieViewModel.fetchCards(it) }
+        context?.let { movieViewModel.fetchMovies(it) }
         movieViewModel.movies.observe(viewLifecycleOwner) {
             if (it.resultCode == "OK") {
                 val moviesArray: ArrayList<com.vinaye.telusvideoapp.data.Metadata> =
@@ -61,5 +60,3 @@ class MovieFragment : Fragment() {
         _binding = null
     }
 }
-
-

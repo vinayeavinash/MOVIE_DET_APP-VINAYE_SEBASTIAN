@@ -16,7 +16,7 @@ class MovieViewModel : ViewModel() {
     private val mutableMovies = MutableLiveData<Movie>()
     val movies: LiveData<Movie> get() = mutableMovies
     // function for fetch movie details
-    fun fetchCards(context: Context) {
+    fun fetchMovies(context: Context) {
         viewModelScope.launch {
             val jsonString = CommonMethods.getJson(context, "movies.json")
             val gson = Gson()

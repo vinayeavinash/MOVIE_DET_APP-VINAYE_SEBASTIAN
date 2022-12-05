@@ -25,9 +25,8 @@ class MovieDetailsActivity : AppCompatActivity() {
     private fun getData() {
         val bundle = intent.extras
         position = bundle?.getInt("position")!!
-        val movieViewModel =
-            ViewModelProvider(this)[MovieViewModel::class.java]
-        movieViewModel.fetchCards(this)
+        val movieViewModel = ViewModelProvider(this)[MovieViewModel::class.java]
+        movieViewModel.fetchMovies(this)
         movieViewModel.movies.observe(this) {
             val moviesArray: ArrayList<com.vinaye.telusvideoapp.data.Metadata> = ArrayList()
             if (it.resultCode == "OK") {
