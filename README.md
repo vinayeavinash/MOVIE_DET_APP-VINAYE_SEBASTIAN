@@ -7,5 +7,6 @@ Features:
 *Using MVVM (Model-View-ViewModel) Architecture
 *Using Navigation Components for Navigation UI
 *Using ViewBinding
+*Using Kotlin Coroutines for threaeding
 *Using Glide for loading and caching image from URL
 
