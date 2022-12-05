@@ -1,6 +1,7 @@
-# TELUS_ASSIGNMENT1_-VINAYE_SEBASTIAN-.
+# MOVIE_DET_APP-VINAYE_SEBASTIAN
 
-This app helps to see the movie details from  movies.json files
+
+This app helps to see the movie details from  movies.json files(MVVM Design Pattern)
 
 Features:
 
